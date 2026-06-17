@@ -1,64 +1,58 @@
-Build a Content Creator Workspace application that helps content creators plan, organize, produce, and grow their content across multiple social media platforms.
+# CreatorFlow — Product Overview
 
-The app should act as a central hub where creators can manage content ideas, content calendars, production workflows, publishing schedules, and performance tracking in one place.
+## What It Is
+CreatorFlow is an AI-powered content creator workspace — a central hub where solo creators and small content teams manage the full content lifecycle: from idea capture to publishing to performance tracking, with an AI content partner available at every step.
 
-A key feature of the platform is an AI Content Assistant that acts like a personal creative partner. The AI should help creators brainstorm ideas, generate content suggestions, overcome creative blocks, optimize content strategies, and answer questions related to content creation and audience growth.
+## The Problem
+Content creators scatter their workflow across Notion, Google Calendar, spreadsheets, camera rolls, DMs, and five different scheduling tools. The result: missed posting days, lost ideas, chaotic approvals, and no clear picture of what's actually working. Growing an audience requires consistency; the tooling makes consistency nearly impossible.
 
-Creators should be able to:
+## The Solution
+One workspace that covers every stage of the creator workflow — capturing ideas, planning a calendar, briefing and scripting content, tracking production status, managing assets, scheduling posts, reviewing performance, and getting AI guidance — without switching apps.
 
-* Capture and organize content ideas
-* Plan content using a visual calendar
-* Create content briefs and scripts
-* Track content production status
-* Manage photos, videos, and creative assets
-* Schedule content for publishing
-* Monitor content performance
-* Collaborate with editors, designers, or team members
-* Chat with an AI assistant for guidance and recommendations
+## Users
+**Primary**: Solo content creators (YouTubers, TikTokers, Instagram creators, podcasters, newsletter writers) managing content across multiple platforms.
+**Secondary**: Small content teams (2–5 people) including creators, editors, designers, and brand managers who need a shared workspace and approval workflow.
 
-AI Assistant Capabilities:
+## Core Workflow
+1. Generate or capture content ideas (AI-assisted or manual)
+2. Plan and schedule via visual content calendar
+3. Produce content with briefs, scripts, and asset management
+4. Review and approve drafts (approval workflow)
+5. Publish content on schedule
+6. Track performance across platforms
+7. Use AI insights to refine future content strategy
 
-* Generate content ideas based on niche and audience
-* Suggest trending topics and content opportunities
-* Create content outlines, captions, and hooks
-* Recommend posting schedules
-* Review content drafts and provide feedback
-* Suggest improvements to increase engagement
-* Help create content strategies and campaigns
-* Answer creator-related questions
-* Act as a productivity and brainstorming assistant
+## Key Features
+- **AI Content Assistant** — brainstorm ideas, generate captions/hooks/outlines, review drafts, recommend strategies, answer creator questions; acts as dedicated content manager and creative partner
+- **Content Idea Bank** — capture, tag, and organize ideas; AI suggests trending topics based on niche and audience
+- **Visual Content Calendar** — drag-and-drop scheduling, platform-specific view, upcoming content at a glance
+- **Production Tracker** — Kanban-style pipeline from idea → draft → review → approved → published
+- **Asset Library** — manage photos, videos, and creative assets in one place
+- **Content Briefs & Scripts** — structured templates for briefs, hooks, and scripts; AI can generate drafts
+- **Approval Workflow** — assign reviewers, collect feedback, track approval status before publishing
+- **Performance Dashboard** — published content metrics, engagement summaries, AI-recommended improvements
+- **Task Management** — assign tasks to team members, track deadlines
+- **Team Collaboration** — editors, designers, and creators share one workspace
 
-The platform should support a simple workflow:
+## Dashboard Overview
+- Upcoming content schedule
+- Content pipeline overview (by stage)
+- Drafts awaiting review
+- Published content log
+- Performance summaries
+- AI recommendations and content opportunities
 
-1. Generate or capture content ideas
-2. Plan and schedule content
-3. Produce content
-4. Review and approve content
-5. Publish content
-6. Track performance
-7. Use AI insights to improve future content
+## Brand & Design Principles
+- Modern, creator-friendly, visually appealing
+- Optimized for solo creators and small teams
+- AI assistant feels like a dedicated content manager and creative partner, not a chatbot
+- Energetic but calm; premium without being cold
 
-Key Features:
+## App Name
+CreatorFlow
 
-* AI Content Assistant
-* Content idea bank
-* Content calendar
-* Content production tracker
-* Asset library
-* Task management
-* Approval workflow
-* Performance dashboard
-* Team collaboration
+## Tagline
+AI-powered content creator workspace — plan, produce, schedule, and grow across every platform with your own AI content partner built in.
 
-Dashboard:
-
-* Upcoming content schedule
-* Content pipeline overview
-* Drafts awaiting review
-* Published content
-* Performance summaries
-* AI recommendations and content opportunities
-
-The application should help creators stay organized, publish consistently, and grow their audience while having an AI-powered assistant available at any time for ideas, planning, strategy, and content optimization.
-
-The design should be modern, creator-friendly, visually appealing, and optimized for both solo creators and small content teams. The AI assistant should feel like a dedicated content manager, strategist, and creative partner working alongside the creator.
+## Positioning
+Replaces scattered tools (Notion + spreadsheets + Google Cal + scheduling apps) with one focused workspace built for content creators and powered by AI.
