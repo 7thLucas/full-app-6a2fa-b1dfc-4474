@@ -1,0 +1,111 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; gap: 2rem; }
+  .mode-portrait .sl-layout { flex-direction: column; gap: 1.5rem; }
+  .mode-landscape .sl-left { width: 55%; }
+  .mode-portrait .sl-left { width: 100%; }
+  .mode-landscape .sl-right { width: 45%; }
+  .mode-portrait .sl-right { width: 100%; }
+</style>
+
+<section class="w-full h-full overflow-hidden bg-white">
+  <div class="flex flex-col h-full p-10 gap-5">
+
+    <!-- Header -->
+    <div class="flex flex-col gap-1">
+      <div class="text-xs font-bold tracking-widest uppercase text-violet-500">North Star Metric</div>
+      <h2 class="text-slate-900 font-extrabold text-2xl" style="letter-spacing:-0.02em;">Weekly Content Pieces Published</h2>
+      <p class="text-slate-400 text-xs mt-0.5">Projected impact — based on your inputs</p>
+    </div>
+
+    <div class="sl-layout flex flex-1 min-h-0">
+
+      <!-- Left: Operations definition + formula -->
+      <div class="sl-left flex flex-col gap-4">
+
+        <!-- Verified Operation definition -->
+        <div class="rounded-2xl p-4 bg-slate-50 border border-slate-100">
+          <div class="text-xs font-bold text-slate-400 uppercase tracking-wide mb-2">Verified Operation</div>
+          <div class="text-slate-800 font-semibold text-sm leading-relaxed">
+            A <span class="text-violet-600 font-bold">content piece published</span> — tracked from idea capture through draft, review, and approval to live post on a platform, completed inside CreatorFlow.
+          </div>
+          <div class="text-slate-400 text-xs mt-2">Clicks, logins, and edits are not counted — only completed publications.</div>
+        </div>
+
+        <!-- Formula -->
+        <div class="rounded-2xl p-4 border-2 border-violet-200 flex flex-col gap-3" style="background:#f5f3ff;">
+          <div class="text-xs font-bold text-violet-600 uppercase tracking-wide">Weekly Projection Formula</div>
+
+          <div class="flex flex-col gap-2">
+            <!-- Row 1 -->
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="text-xs px-2 py-0.5 rounded font-semibold text-orange-700 bg-orange-50 border border-orange-200">Assumption — adjust this</span>
+                <span class="text-slate-600 text-sm">Active creators</span>
+              </div>
+              <span class="text-slate-900 font-bold text-sm">2</span>
+            </div>
+            <!-- Row 2 -->
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <span class="text-xs px-2 py-0.5 rounded font-semibold text-orange-700 bg-orange-50 border border-orange-200">Assumption — adjust this</span>
+                <span class="text-slate-600 text-sm">Pieces per creator / week</span>
+              </div>
+              <span class="text-slate-900 font-bold text-sm">× 5</span>
+            </div>
+            <!-- Divider + result -->
+            <div class="h-px bg-violet-200 mt-1"></div>
+            <div class="flex items-center justify-between">
+              <span class="text-violet-700 font-bold text-sm">= Weekly Verified Operations</span>
+              <span class="text-violet-700 font-extrabold text-xl">10 / wk</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right: Value projection -->
+      <div class="sl-right flex flex-col gap-3">
+
+        <!-- Time saved value -->
+        <div class="rounded-2xl p-4 bg-slate-50 border border-slate-100 flex flex-col gap-2">
+          <div class="text-xs font-bold text-slate-400 uppercase tracking-wide">Value Per Operation</div>
+          <div class="text-slate-600 text-xs leading-relaxed">
+            3 hrs saved per piece (vs. scattered tools) ×
+            <span class="text-xs px-1.5 py-0.5 rounded font-semibold text-orange-700 bg-orange-50 border border-orange-200 inline-flex">Assumption — adjust this</span>
+            $30 / hr creator value
+          </div>
+          <div class="flex items-baseline gap-1 mt-1">
+            <span class="text-violet-600 font-extrabold text-2xl">$90</span>
+            <span class="text-slate-400 text-sm">/ piece</span>
+          </div>
+        </div>
+
+        <!-- Total value -->
+        <div class="rounded-2xl p-4 flex flex-col gap-1" style="background: linear-gradient(135deg, #7c3aed, #a855f7);">
+          <div class="text-xs font-bold uppercase tracking-wide" style="color:rgba(255,255,255,0.65);">Projected Total Value</div>
+          <div class="text-white text-xs" style="color:rgba(255,255,255,0.75);">10 ops/wk × $90 = $900/week</div>
+          <div class="flex items-baseline gap-1 mt-1">
+            <span class="text-white font-extrabold text-3xl">$46,800</span>
+            <span class="text-white text-sm" style="color:rgba(255,255,255,0.75);">/ year</span>
+          </div>
+          <div class="text-xs mt-1" style="color:rgba(255,255,255,0.6);">$900 × 52 weeks</div>
+        </div>
+
+        <!-- Second operation: briefs -->
+        <div class="rounded-2xl p-3 bg-slate-50 border border-slate-100">
+          <div class="text-xs font-bold text-slate-400 uppercase tracking-wide mb-1">Secondary Operation</div>
+          <div class="text-slate-700 text-xs font-semibold">Content brief completed</div>
+          <div class="text-slate-400 text-xs mt-0.5">Brief created, reviewed, and approved inside CreatorFlow — unlocks production.</div>
+        </div>
+
+        <!-- Framing note -->
+        <div class="rounded-xl p-3 border border-slate-200 flex items-start gap-2" style="background:#f8fafc;">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" class="flex-shrink-0 mt-0.5"><circle cx="7" cy="7" r="6" stroke="#94a3b8" stroke-width="1.2"/><path d="M7 6v4M7 4.5v.5" stroke="#94a3b8" stroke-width="1.2" stroke-linecap="round"/></svg>
+          <span class="text-slate-400 text-xs">These are projections based on your inputs, not measured results. Adjust the assumption chips above to match your actual team and cadence.</span>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
