@@ -1,0 +1,100 @@
+<style>
+  .mode-landscape .sl-grid { grid-template-columns: repeat(4, 1fr); }
+  .mode-portrait .sl-grid { grid-template-columns: repeat(2, 1fr); }
+  .mode-portrait .sl-persona-row { flex-wrap: wrap; }
+</style>
+
+<section class="w-full h-full overflow-hidden bg-white">
+  <div class="flex flex-col h-full p-10 gap-6">
+
+    <!-- Header -->
+    <div class="flex flex-col gap-1">
+      <div class="text-xs font-bold tracking-widest uppercase text-violet-500">Platform Capabilities</div>
+      <h2 class="text-slate-900 font-extrabold text-2xl" style="letter-spacing:-0.02em;">Everything a creator needs. Nothing they don't.</h2>
+    </div>
+
+    <!-- Persona chips -->
+    <div class="sl-persona-row flex items-center gap-2">
+      <span class="px-4 py-1.5 rounded-full text-sm font-semibold text-white" style="background: linear-gradient(135deg, #7c3aed, #a855f7);">Solo Creator</span>
+      <span class="px-4 py-1.5 rounded-full text-sm font-semibold text-slate-500 bg-slate-100">Small Content Team</span>
+      <span class="px-4 py-1.5 rounded-full text-sm font-semibold text-slate-500 bg-slate-100">Brand Manager</span>
+    </div>
+
+    <!-- Feature grid -->
+    <div class="sl-grid grid gap-3 flex-1">
+
+      <!-- AI Content Assistant -->
+      <div class="rounded-2xl p-4 flex flex-col gap-2" style="background: linear-gradient(135deg, #7c3aed, #a855f7);">
+        <div class="w-8 h-8 rounded-xl bg-white bg-opacity-20 flex items-center justify-center">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="6" r="3" stroke="white" stroke-width="1.3"/><path d="M4 13c0-2.2 1.8-4 4-4s4 1.8 4 4" stroke="white" stroke-width="1.3" stroke-linecap="round"/><path d="M13 3l1 1-1 1M11.5 2.5l2 2" stroke="white" stroke-width="1" stroke-linecap="round"/></svg>
+        </div>
+        <div class="text-white font-bold text-sm">AI Content Assistant</div>
+        <div class="text-white text-opacity-80 text-xs leading-relaxed" style="color:rgba(255,255,255,0.75);">Brainstorm ideas, generate captions, hooks, outlines. Your always-on creative partner.</div>
+      </div>
+
+      <!-- Idea Bank -->
+      <div class="rounded-2xl p-4 flex flex-col gap-2 bg-slate-50 border border-slate-100">
+        <div class="w-8 h-8 rounded-xl flex items-center justify-center" style="background:#f3f0ff;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 2a4 4 0 0 1 4 4c0 1.5-.8 2.8-2 3.5V11H6V9.5A4 4 0 0 1 4 6a4 4 0 0 1 4-4Z" stroke="#7c3aed" stroke-width="1.3"/><path d="M6 13h4M7 15h2" stroke="#7c3aed" stroke-width="1.3" stroke-linecap="round"/></svg>
+        </div>
+        <div class="text-slate-800 font-bold text-sm">Content Idea Bank</div>
+        <div class="text-slate-500 text-xs leading-relaxed">Capture, tag, and organize ideas. AI suggests trending topics by niche.</div>
+      </div>
+
+      <!-- Content Calendar -->
+      <div class="rounded-2xl p-4 flex flex-col gap-2 bg-slate-50 border border-slate-100">
+        <div class="w-8 h-8 rounded-xl flex items-center justify-center" style="background:#fff7ed;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="2" y="3" width="12" height="11" rx="2" stroke="#f97316" stroke-width="1.3"/><path d="M5 2v2M11 2v2M2 7h12" stroke="#f97316" stroke-width="1.3" stroke-linecap="round"/><rect x="5" y="9" width="2" height="2" rx="0.5" fill="#f97316"/><rect x="9" y="9" width="2" height="2" rx="0.5" fill="#f97316"/></svg>
+        </div>
+        <div class="text-slate-800 font-bold text-sm">Visual Content Calendar</div>
+        <div class="text-slate-500 text-xs leading-relaxed">Drag-and-drop scheduling across platforms. Upcoming posts at a glance.</div>
+      </div>
+
+      <!-- Production Tracker -->
+      <div class="rounded-2xl p-4 flex flex-col gap-2 bg-slate-50 border border-slate-100">
+        <div class="w-8 h-8 rounded-xl flex items-center justify-center" style="background:#f0fdf4;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="3" height="12" rx="1" fill="#22c55e"/><rect x="6.5" y="4" width="3" height="10" rx="1" fill="#86efac"/><rect x="11" y="6" width="3" height="8" rx="1" fill="#bbf7d0"/></svg>
+        </div>
+        <div class="text-slate-800 font-bold text-sm">Production Tracker</div>
+        <div class="text-slate-500 text-xs leading-relaxed">Kanban pipeline from idea → draft → review → approved → published.</div>
+      </div>
+
+      <!-- Asset Library -->
+      <div class="rounded-2xl p-4 flex flex-col gap-2 bg-slate-50 border border-slate-100">
+        <div class="w-8 h-8 rounded-xl flex items-center justify-center" style="background:#fdf2f8;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="5.5" height="5.5" rx="1.5" fill="#c026d3"/><rect x="8.5" y="2" width="5.5" height="5.5" rx="1.5" fill="#e879f9"/><rect x="2" y="8.5" width="5.5" height="5.5" rx="1.5" fill="#f0abfc"/><rect x="8.5" y="8.5" width="5.5" height="5.5" rx="1.5" fill="#fae8ff"/></svg>
+        </div>
+        <div class="text-slate-800 font-bold text-sm">Asset Library</div>
+        <div class="text-slate-500 text-xs leading-relaxed">Photos, videos, creative files — organized and searchable in one place.</div>
+      </div>
+
+      <!-- Briefs & Scripts -->
+      <div class="rounded-2xl p-4 flex flex-col gap-2 bg-slate-50 border border-slate-100">
+        <div class="w-8 h-8 rounded-xl flex items-center justify-center" style="background:#f3f0ff;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="3" y="2" width="10" height="12" rx="1.5" stroke="#7c3aed" stroke-width="1.3"/><path d="M6 6h4M6 8.5h4M6 11h2" stroke="#7c3aed" stroke-width="1.2" stroke-linecap="round"/></svg>
+        </div>
+        <div class="text-slate-800 font-bold text-sm">Briefs &amp; Scripts</div>
+        <div class="text-slate-500 text-xs leading-relaxed">Structured templates; AI generates first drafts of hooks and outlines.</div>
+      </div>
+
+      <!-- Approval Workflow -->
+      <div class="rounded-2xl p-4 flex flex-col gap-2 bg-slate-50 border border-slate-100">
+        <div class="w-8 h-8 rounded-xl flex items-center justify-center" style="background:#fff7ed;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="5" cy="5" r="2.5" stroke="#f97316" stroke-width="1.3"/><circle cx="11" cy="11" r="2.5" stroke="#f97316" stroke-width="1.3"/><path d="M7.5 5H13M3 11h5.5" stroke="#f97316" stroke-width="1.3" stroke-linecap="round"/></svg>
+        </div>
+        <div class="text-slate-800 font-bold text-sm">Approval Workflow</div>
+        <div class="text-slate-500 text-xs leading-relaxed">Assign reviewers, collect feedback, track approval before publishing.</div>
+      </div>
+
+      <!-- Performance Dashboard -->
+      <div class="rounded-2xl p-4 flex flex-col gap-2 border" style="background: linear-gradient(135deg, #fff7ed, #fef3c7); border-color:#fed7aa;">
+        <div class="w-8 h-8 rounded-xl flex items-center justify-center" style="background:#f97316;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 12l4-4 3 2 5-7" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="text-orange-900 font-bold text-sm">Performance Dashboard</div>
+        <div class="text-orange-700 text-xs leading-relaxed">Metrics, engagement summaries, AI-recommended improvements per post.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
